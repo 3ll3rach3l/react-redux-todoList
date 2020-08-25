@@ -1,5 +1,5 @@
 import React from 'react';
-import Task from './Task';
+//import Task from './Task';
 // TODO: Import the application's Redux store instance
 // TODO: Import the `deleteTask` action creator function
 

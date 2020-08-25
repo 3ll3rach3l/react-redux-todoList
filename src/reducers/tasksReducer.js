@@ -9,7 +9,7 @@ const tasksReducer = (state = {}, action) => {
   // TODO: Define switch case for routing 'CREATE_TASK' actions and 'DELETE_TASK' actions
   switch (action.type){
     case CREATE_TASK:
-     
+      //debugger;     
       const newTask ={
         id: action.taskId,
         message: action.taskMessage
@@ -20,6 +20,8 @@ const tasksReducer = (state = {}, action) => {
       
       delete nextState[action.taskId];
       return nextState;
+    default:
+      return state; 
 
 
   }

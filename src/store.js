@@ -10,3 +10,5 @@ const store = createStore(tasksReducer, preloadedState)
 
 // TODO: Subscribe to store changes and save the state upon each change
 store.subscribe(()=> saveState(store.getState()))
+
+export default store; 
